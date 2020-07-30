@@ -1,0 +1,548 @@
+    #navbar {
+        width: 1921px;
+        height: 86px;
+        background-color: #ffffff;
+    }
+    /* nav li a {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+    
+    nav ul {
+        list-style-type: none;
+        margin: 50px 0 0 400px;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        /* Style for "HOME" */
+        /* width: 701px;
+    height: 10px; */
+        color: #2f3f54;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: rgba(7, 172, 223, 0.698);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .rectangle02 {
+        /* Style for "Rectangle" */
+        width: 1923px;
+        height: 969px;
+        background-color: #267ae9;
+    }
+    
+    .rectangle02 .text {
+        /* Style for "Text" */
+        width: 544px;
+        height: 402px;
+        padding: 10px 0 100px 250px;
+    }
+    
+    .text p {
+        /* Style for "Simple – E" */
+        width: 303px;
+        height: 12px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    
+    .text h5 {
+        /* Style for "The Best W" */
+        width: 542px;
+        height: 5px;
+        color: #ffffff;
+        font-family: "Roboto - Black";
+        font-size: 28px;
+        font-weight: 200;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    
+    .text h6 {
+        /* Style for "Starting a" */
+        width: 261px;
+        height: 10px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+    
+    .text ul {
+        width: 203px;
+        height: 12px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        list-style-image: url('./assets/images/list.png');
+        list-style-type: square;
+        padding-left: 5px;
+        padding-bottom: 18px;
+    }
+    
+    ul li {
+        padding-bottom: 10px;
+    }
+    
+    .text button {
+        /* Style for "Rounded Re" */
+        width: 290px;
+        height: 47px;
+        border-radius: 24px;
+        border: 3px solid #ffffff;
+        background-color: #267ae9;
+        margin-top: 30px;
+    }
+    
+    button p {
+        /* Style for "Get Starte" */
+        width: 131px;
+        height: 10px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 25px;
+    }
+    
+    .flex-container .box {
+        background-color: #267ae9;
+        width: 200%;
+        margin: 0px;
+        text-align: left;
+        line-height: 20px;
+        font-size: 20px;
+        padding-left: 100px;
+        padding-top: 280px;
+        position: relative;
+        /* text-align: center;
+    color: black; */
+    }
+    
+    .imagerelative {
+        position: relative;
+        top: -30px;
+    }
+    
+    .imageabsolute {
+        position: absolute;
+        top: 150px;
+        left: 300px;
+        padding-left: 100px;
+    }
+    
+    .circleText {
+        position: relative;
+        text-align: center;
+        color: black;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        color: black;
+        line-height: 20px;
+        font-size: 70px;
+    }
+    
+    .boxShadow01 {
+        /* Style for "bg" */
+        width: 1140px;
+        height: 303px;
+        box-shadow: 0 21px 49px 50px rgba(41, 44, 61, 0.15);
+        border-radius: 2px;
+        background-color: #ffffff;
+        padding-left: 100px;
+        margin-left: 250px;
+        margin-top: 180px;
+        /* padding: 20px 0 50px 50px; */
+    }
+    
+    .backgound {
+        width: 1920px;
+        height: 6456px;
+    }
+    
+    .textbox {
+        width: 452px;
+        height: 68px;
+        box-shadow: 0 21px 49px 1px rgba(41, 44, 61, 0.15);
+        border-radius: 2px 0 0 2px;
+        background-color: #ffffff;
+        padding-left: 200px;
+        margin-left: 400px;
+        display: block;
+        position: relative;
+        padding-top: 2px;
+        /* z-index: -1; */
+    }
+    
+    .textbox p {
+        /* Style for "Find your" */
+        width: 193px;
+        height: 1px;
+        opacity: 0.58;
+        color: #4a6385;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 4px;
+        padding-top: 20px;
+        text-align: left;
+    }
+    
+    .texboxbutton {
+        width: 210px;
+        height: 68px;
+        box-shadow: 0 21px 49px 1px rgba(41, 44, 61, 0.15);
+        border-radius: 0 2px 2px 0;
+        background-color: #2575e7;
+        padding-left: 70px;
+        margin-left: 450px;
+        position: absolute;
+        margin-bottom: 120px;
+        margin-top: -50px;
+    }
+    
+    .texboxbutton p {
+        /* Style for "Search Dom" */
+        width: 94px;
+        height: 10px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    
+    .boxShsow02 {
+        /* Style for "bg" */
+        width: 555px;
+        height: 783px;
+        box-shadow: 0 21px 49px 1px rgba(41, 44, 61, 0.15);
+        border-radius: 2px;
+        background-color: #267ae9;
+        margin-top: 290px;
+        margin-left: 250px;
+    }
+    
+    .boxSidebar {
+        /* Style for "bg" */
+        width: 105px;
+        height: 783px;
+        border-radius: 2px 0 0 2px;
+        background-color: #ffffff;
+    }
+    
+    .LotsOfHosting {
+        width: 503px;
+        height: 89px;
+        color: #2f3f54;
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        padding-left: 700px;
+        margin-top: -800px;
+    }
+    
+    .LotsOfHosting h3 {
+        color: #267ae9;
+    }
+    
+    .LotsOfHosting p {
+        /* Style for "You can ta" */
+        width: 501px;
+        height: 84px;
+        color: #4a6385;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .weOffer {
+        /* Style for "We offer a" */
+        width: 331px;
+        height: 81px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        padding-left: 200px;
+        padding-top: 85px;
+    }
+    
+    .heading {
+        /* Style for "So Easy to" */
+        width: 250px;
+        height: 19px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        padding-left: 200px;
+        padding-top: 85px;
+    }
+    
+    .content {
+        /* Style for "Keywords a" */
+        width: 348px;
+        height: 60px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 200px;
+        padding-top: 10px;
+    }
+    
+    .rectangle03 {
+        width: 1920px;
+        height: 1101px;
+        background-color: #fafafa;
+        margin-top: 150px;
+    }
+    
+    .boxShadow03 {
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+        position: absolute;
+        left: 391px;
+        top: 2307px;
+        width: 1140px;
+        height: 287px;
+        margin-top: 200px;
+        /* z-index: 144; */
+    }
+    /* .boxShadow03 img {
+        padding: 76px 65px 27px 180px;
+    } */
+    
+    div.gallery {
+        margin: 65px;
+        /* border: 1px solid #ccc; */
+        float: left;
+        width: 160px;
+        padding-left: 70px;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .flex-container .box2 {
+        background-color: #fafafa;
+        width: 200%;
+        margin: 0px;
+        text-align: left;
+        line-height: 20px;
+        font-size: 20px;
+        padding-left: 100px;
+        padding-top: 280px;
+        position: relative;
+    }
+    
+    .Get_Started__Today_s_Offers {
+        font-size: 40px;
+        font-family: "Roboto";
+        color: rgb(38, 122, 233);
+        font-weight: bold;
+        line-height: 1.35;
+        text-align: left;
+        position: absolute;
+        left: 388.844px;
+        top: 2790.6px;
+        /* z-index: 156; */
+        margin-top: 150px;
+    }
+    
+    .SEO_WP_built_using_Live_Composer_—_a_front_end_ {
+        font-size: 14px;
+        font-family: "Lato";
+        color: rgb(74, 99, 133);
+        line-height: 1.714;
+        text-align: left;
+        position: absolute;
+        left: 388.134px;
+        top: 2860.25px;
+        width: 597px;
+        height: 86px;
+        margin-top: 175px;
+        /* z-index: 154; */
+    }
+    
+    .getstarted ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #fafafa;
+        margin-top: 80px;
+        width: 600px;
+    }
+    
+    .getstarted li {
+        float: left;
+        padding-right: 50px;
+        color: #2f3f54;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 52px;
+    }
+    
+    .SEO_WP_built_using_Live_Composer_—_a_front_end_ img {
+        float: right;
+    }
+    
+    .flex-container02 {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 25px;
+        margin-top: 200px;
+    }
+    
+    .flex-container .box2 {
+        background-color: #fafafa;
+        width: 200%;
+        margin: 0px;
+        text-align: left;
+        line-height: 20px;
+        font-size: 20px;
+        padding-left: 100px;
+        padding-top: 280px;
+        position: relative;
+        /* text-align: center;
+    color: black; */
+    }
+    
+    .box2 h3 {
+        font-size: 40px;
+        font-family: "Roboto";
+        color: rgb(38, 122, 233);
+        font-weight: bold;
+        line-height: 1.35;
+        text-align: left;
+        position: absolute;
+        left: 388.844px;
+        top: 2790.6px;
+        /* z-index: 156; */
+        margin-top: 150px;
+    }
+    
+    .box2 p {
+        font-size: 14px;
+        font-family: "Lato";
+        color: rgb(74, 99, 133);
+        line-height: 1.714;
+        text-align: left;
+        position: absolute;
+        left: 388.134px;
+        top: 2860.25px;
+        width: 597px;
+        height: 86px;
+        margin-top: 175px;
+    }
+    
+    .box2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #fafafa;
+        margin-top: 700px;
+        width: 600px;
+        margin-left: 400px;
+    }
+    
+    .box2 li {
+        float: left;
+        padding-right: 50px;
+        color: #2f3f54;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 52px;
+    }
+    
+    .box2 img {
+        padding-top: 480px;
+    }
+    
+    .box2 h5 {
+        font-size: 34px;
+        font-family: "Roboto";
+        color: rgb(47, 63, 84);
+        line-height: 1.588;
+        position: absolute;
+        left: 388.413px;
+        top: 3173.781px;
+        z-index: 157;
+        margin-top: 150px;
+    }
+    
+    .Starts_at__9_99_month {
+        font-size: 34px;
+        font-family: "Roboto";
+        color: rgb(47, 63, 84);
+        line-height: 1.588;
+        position: absolute;
+        left: 388.413px;
+        top: 3173.781px;
+        z-index: 157;
+    }
+    /* .Unlimited_Disk_Space {
+        font-size: 20px;
+        font-family: "Roboto";
+        color: rgb(47, 63, 84);
+        line-height: 2.6;
+        position: absolute;
+        left: 426.88px;
+        top: 3016.198px;
+        z-index: 158;
+    } */
